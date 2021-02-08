@@ -42,13 +42,6 @@ import org.apache.poi.xssf.usermodel.XSSFWorkbook;
 
 public class AmazonPage {
 	WebDriver driver;
-	//System.setProperty("webdriver.chrome.driver","C:\\Users\\ghs6kor\\Desktop\\Java\\chromedriver.exe");
-	
-	//public WebElement roundTripRadiobtn = driver.findElement(By.id("RoundTrip"));
-	
-	/*public ClearTripPage() {
-		PageFactory.initElements(driver, this);
-	}*/
 	
 	@FindBy(xpath = "//input[@id='twotabsearchtextbox']")
 	public WebElement searchBar;
