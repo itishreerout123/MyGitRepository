@@ -19,13 +19,7 @@ import org.junit.Assert;
 @SuppressWarnings("deprecation")
 public class ClearTripPage {
 	WebDriver driver;
-	//System.setProperty("webdriver.chrome.driver","C:\\Users\\ghs6kor\\Desktop\\Java\\chromedriver.exe");
 	
-	//public WebElement roundTripRadiobtn = driver.findElement(By.id("RoundTrip"));
-	
-	/*public ClearTripPage() {
-		PageFactory.initElements(driver, this);
-	}*/
 	@FindBy(how=How.XPATH, using = "//*[@id='RoundTrip']")
 	public WebElement roundTripRadiobtn;
 	
